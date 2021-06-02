@@ -10,4 +10,19 @@ header {
     background-color: #fff;
 }
 
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+    color: gray;
+}
+
+nav {
+    background-color:  #333;;
+}
+
+nav ul li:first-child {
+    padding:20px;
+}
+
+
 
