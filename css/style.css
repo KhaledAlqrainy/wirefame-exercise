@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+    color: gray;
+}
+
+nav {
+    background-color:  #333;;
+}
+
+nav ul li:first-child {
+    padding:20px;
+}
+
+section {
+    margin: 20px;
+    margin-left: 200px;
+}
+
+div {
+    margin: 20px;
+    margin-left: 200px;
+    
+}
+
+p {
+    margin-left: 200px;
+}
+
+footer {
+    background-color: #333;
+}
+
