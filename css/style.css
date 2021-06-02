@@ -10,36 +10,4 @@ header {
     background-color: #fff;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 50px;
-    color: gray;
-}
-
-nav {
-    background-color:  #333;;
-}
-
-nav ul li:first-child {
-    padding:20px;
-}
-
-section {
-    margin: 20px;
-    margin-left: 200px;
-}
-
-div {
-    margin: 20px;
-    margin-left: 200px;
-    
-}
-
-p {
-    margin-left: 200px;
-}
-
-footer {
-    background-color: #333;
-}
 
