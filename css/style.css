@@ -35,9 +35,12 @@ div {
     
 }
 
-p {
+p img {
     margin-left: 200px;
+    float: left;
+    
 }
+
 
 footer {
     background-color: #333;
