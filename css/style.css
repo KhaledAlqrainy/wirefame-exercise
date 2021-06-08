@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -29,11 +29,64 @@ section {
     margin-left: 200px;
 }
 
-div {
+.threeimg {
     margin: 20px;
     margin-left: 200px;
     
 }
+
+.lastpic {
+
+    float: left;
+    
+}
+
+
+footer {
+    height: 100px;
+    background-color: #333;
+}
+ */
+
+ * {
+    box-sizing: border-box;
+}
+
+header {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+    color: gray;
+}
+
+nav {
+    background-color:  #333;;
+}
+
+nav ul li:first-child {
+    padding:20px;
+}
+
+section {
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.threeimgs {
+    margin: 20px;
+    margin-left: 200px;
+    
+}
+ .lastpic img {
+     margin-left: 200px;
+ }
 
 p img {
     margin-left: 200px;
@@ -44,5 +97,5 @@ p img {
 
 footer {
     background-color: #333;
+    text-align: center;
 }
-
