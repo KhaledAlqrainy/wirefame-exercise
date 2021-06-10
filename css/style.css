@@ -86,14 +86,32 @@ section {
 }
  .lastpic img {
      margin-left: 200px;
+     float: left;
  }
 
-p img {
-    margin-left: 200px;
-    float: left;
-    
+button{
+    margin-left: 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
+button:hover {
+    background-color: blue;
+    color: white;
+  }
+/* 
+p{
+    margin-left: 50px;
+} */
 
 footer {
     background-color: #333;
